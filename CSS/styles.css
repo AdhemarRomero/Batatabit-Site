@@ -154,6 +154,9 @@ main {
   margin: 0 auto;
   font-family: "Inter", sans-serif;
 }
+.main-comissions-table::-webkit-scrollbar{
+  display: none;
+}
 .main-comissions-table .comissions-table--title {
   margin-bottom: 15px;
   font-size: 1.8rem;
@@ -481,6 +484,9 @@ main {
   scroll-snap-type: x mandatory;
   vertical-align: center;
 }
+.plans-container--slider::-webkit-scrollbar {
+  display: none;
+}
 .plans-container--card {
   position: relative;
   scroll-snap-align: center;
@@ -549,6 +555,7 @@ main {
   font-weight: bold;
   line-height: 1.8rem;
   color: var(--black);
+  cursor: pointer;
 }
 .plan-card--ca span {
   display: inline-block;
